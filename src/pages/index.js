@@ -11,5 +11,5 @@ const IndexPage = () => (
     <Footer />
   </main>
 )
-//test
+
 export default IndexPage
