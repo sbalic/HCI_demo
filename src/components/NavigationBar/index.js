@@ -6,7 +6,7 @@ const navTabs = ['Home', 'Accommodation', 'Photo Gallery', 'Contact']
 
 const NavigationBar = props => (
     <nav className={styles.navigationBar}>
-        {navTabs.map(tab => <li className={tab === props.activeTab ? styles.active : ''}>
+        {navTabs.map(tab => <li key={tab} className={tab === props.activeTab ? styles.active : ''}>
           {tab}</li>
         )}
     </nav>
